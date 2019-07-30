@@ -37,7 +37,7 @@ export default function App() {
     }
 
   return (
-    <>
+    <div >
     <form
     onSubmit={handleSearch}>
     <input
@@ -63,7 +63,7 @@ export default function App() {
     )}
 
     {error && <div>{error.message}</div>}
-    </>
+    </div>
   );
 }
 
